@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://IevgeniiaMelnyk.github.io/Oligraf-practice/",
+  "homepage": "https://ievgeniiamelnyk.github.io/Oligraf-practice/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /Oligraf-practice/"
