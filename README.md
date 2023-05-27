@@ -1,100 +1,105 @@
 # Команда Cyber Bobik презентує проект Patron-4U
 
-Відео презентація проекту [Patron-4U YouTube](https://youtu.be/Du5mKKIjR9o).
-
 <div align="center">
-  <img src="https://media.giphy.com/media/3o7abAHdYvZdBNnGZq/giphy.gif" width="300"/>
+  <img src="https://media.giphy.com/media/3o7abAHdYvZdBNnGZq/giphy.gif" width="400"/>
 </div>
 
-1. Убедись что на компьютере установлена LTS-версия Node.js.
-   [Скачай и установи](https://nodejs.org/en/) её если необходимо.
-2. Склонируй этот репозиторий.
-3. Измени имя папки с `parcel-project-template` на имя своего проекта.
-4. Создай новый пустой репозиторий на GitHub.
-5. Открой проект в VSCode, запусти терминал и свяжи проект с GitHub-репозиторием
-   [по инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url).
-6. Установи зависимости проекта в терминале командой `npm install` .
-7. Запусти режим разработки, выполнив команду `npm start`.
-8. Перейди в браузере по адресу [http://localhost:1234](http://localhost:1234).
-   Эта страница будет автоматически перезагружаться после сохранения изменений в
-   файлах проекта.
+## ПОРТРЕТ КОРИСТУВАЧА
 
-## Файлы и папки
+### Андрій Смуглій
 
-- Все паршалы файлов стилей должны лежать в папке `src/sass` и импортироваться в
-  файлы стилей страниц. Например, для `index.html` файл стилей называется
-  `index.scss`.
-- Изображения добавляй в папку `src/images`. Сборщик оптимизирует их, но только
-  при деплое продакшн версии проекта. Все это происходит в облаке, чтобы не
-  нагружать твой компьютер, так как на слабых машинах это может занять много
-  времени.
+54 роки
 
-## Деплой
+<div align="left">
+  <img src="https://media.giphy.com/media/ZacWzGFghgEAzPquHR/giphy.gif" width="250"/>
+</div>
 
-Для настройки деплоя проекта необходимо выполнить несколько дополнительных шагов
-по настройке твоего репозитория. Зайди во вкладку `Settings` и в подсекции
-`Actions` выбери выбери пункт `General`.
+### Актор та спортсмен.
 
-![GitHub actions settings](./assets/actions-config-step-1.png)
+Досяг 99% своїх цілей в житті. Чудовий батько, чоловік, та господар.
+Обожнює тварин до нестями.
+Веде активні сторінки в соцмережах де закликає людей дбайливіше відноситися до природи та тварин
+Займається зооволонтерством. Мріяв про додаток, який би допомагав людям з повсякденними
+питаннями пов'язаними з їх домашніми улюбленцями.
 
-Пролистай страницу до последней секции, в которой убедись что выбраны опции как
-на следующем изображении и нажми `Save`. Без этих настроек у сборки будет
-недостаточно прав для автоматизации процесса деплоя.
+Використовуючи наш продукт, Андрій тепер може легко знайти тваринку, якій необхідна допомога чи піклування.
+Раніше, після того як тваринку було вилікувано та поставлено на лапи, необхідно було довго шукати їй нову 
+постійну родину але завдяки Patron-4U цей процес сьогодні займає буквально кілька хвилин.
 
-![GitHub actions settings](./assets/actions-config-step-2.png)
+Андрій показав наш сайт сусідці Антоніні,  яка з його допомогою змогла  позбавитися кількох десятків котів, 
+популяція яких почала неконтрольовано рости в неї на подвір’ї. Після подання повідомлення про роздачу котиків 
+знайшлося багато охочих обрати собі вусатого улюбленця, адже фото і опис просто не змогли залишити нікого байдужим. 
+По секрету Антоніна розповіла Андрію що за деяких котів люди навіть платили їй кошти. 
 
-Продакшн версия проекта будет автоматически собираться и деплоиться на GitHub
-Pages, в ветку `gh-pages`, каждый раз когда обновляется ветка `main`. Например,
-после прямого пуша или принятого пул-реквеста. Для этого необходимо в файле
-`package.json` отредактировать поле `homepage` и скрипт `build`, заменив
-`your_username` и `your_repo_name` на свои, и отправить изменения на GitHub.
+---
 
-```json
-"homepage": "https://your_username.github.io/your_repo_name/",
-"scripts": {
-  "build": "parcel build src/*.html --public-url /your_repo_name/"
-},
-```
+<div align="left">
+  <img src="https://media.giphy.com/media/fTImut4ifAqLC/giphy.gif" width="400"/>
+</div>
 
-Далее необходимо зайти в настройки GitHub-репозитория (`Settings` > `Pages`) и
-выставить раздачу продакшн версии файлов из папки `/root` ветки `gh-pages`, если
-это небыло сделано автоматически.
+---
 
-![GitHub Pages settings](./assets/repo-settings.png)
+За допомогою Patron-4U можна легко знайти людей які мають такого ж домашнього улюбленця як і Ви. 
+Зможете поділитись своїм досвідом піклування про ту чи іншу породу тваринки або навпаки навчитись чогось нового,
+а це в свою чергу може бути початком нової цікавої дружби з захоплюючими людьми.
 
-### Статус деплоя
+Завдяки нашому сайту домівку знайдуть навіть дуже незвичайні представники свого виду 
+і стануть найкращими та найунікальнішими домашніми улюбленцями.
 
-Статус деплоя крайнего коммита отображается иконкой возле его идентификатора.
+<div align="center">
+  <img src="https://media.giphy.com/media/2V7oQlf9T1p2msNMuq/giphy.gif" width="300"/>
+</div>
 
-- **Желтый цвет** - выполняется сборка и деплой проекта.
-- **Зеленый цвет** - деплой завершился успешно.
-- **Красный цвет** - во время линтинга, сборки или деплоя произошла ошибка.
+> Відео презентація проекту [Patron-4U YouTube](https://youtu.be/Du5mKKIjR9o)
 
-Более детальную информацию о статусе можно посмотреть кликнув по иконке, и в
-выпадающем окне перейти по ссылке `Details`.
+> Backend [Patron-4U Github](https://github.com/OlgaVysochanska/project-patron-b)
 
-![Deployment status](./assets/status.png)
+> Swagger [Patron-4U Swagger](https://patron-back.onrender.com/api-docs/#/)
 
-### Живая страница
+> Developers:
+- [Olga Vysochanska Team Lead](https://www.linkedin.com/in/olga-vysochanska)
+- [Bogdan Berezka Scrum Master](http://www.linkedin.com/in/bogdan-berezka)
+- [Rostyk Smakula](http://linkedin.com/in/28rost)
+- [Svetlana Cherniakova](http://linkedin.com/in/svitlana-cherniakova)
+- [Liubomyr Voitovych](https://www.linkedin.com/in/liubomyr-voitovych)
+- [Ievgeniia Melnyk](https://www.linkedin.com/in/ievgeniia-melnyk)
+- [Oleksii Dembnovetskyi](https://www.linkedin.com/in/oleksii-dembnovetskyi)
+- [Rostyk Podolets](https://www.linkedin.com/in/rostyk-podolets)
+- [Diana Akhmedova](https://www.linkedin.com/in/diana-akhmedova-9a137425a/)
 
-Через какое-то время, обычно пару минут, живую страницу можно будет посмотреть
-по адресу указанному в отредактированном свойстве `homepage`. Например, вот
-ссылка на живую версию для этого репозитория
-[https://goitacademy.github.io/parcel-project-template](https://goitacademy.github.io/parcel-project-template).
+### Термін виконання 
 
-Если открывается пустая страница, убедись что во вкладке `Console` нет ошибок
-связанных с неправильными путями к CSS и JS файлам проекта (**404**). Скорее
-всего у тебя неправильное значение свойства `homepage` или скрипта `build` в
-файле `package.json`.
+14 днів
 
-## Как это работает
+:hammer_and_wrench: ТЕХНОЛОГІЇ ЯКІ ВИКОРИСТОВУВАЛИСЬ :
 
-![How it works](./assets/how-it-works.png)
+<div>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg" title="Sass" alt="Sass" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/redux/redux-original.svg" title="Redux" alt="Redux" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/express/express-original-wordmark.svg" title="Express" alt="Express" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original-wordmark.svg" title="Mongodb" alt="Mongodb" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" title="Figma" alt="Figma" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original-wordmark.svg" title="Vscode" alt="Vscode" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/webpack/webpack-original-wordmark.svg" title="Webpack" alt="Webpack" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original-wordmark.svg" title="Github" alt="Github" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/trello/trello-plain-wordmark.svg" title="Trello" alt="Trello" width="40" height="40"/>&nbsp;
+</div>
 
-1. После каждого пуша в ветку `main` GitHub-репозитория, запускается специальный
-   скрипт (GitHub Action) из файла `.github/workflows/deploy.yml`.
-2. Все файлы репозитория копируются на сервер, где проект инициализируется и
-   проходит сборку перед деплоем.
-3. Если все шаги прошли успешно, собранная продакшн версия файлов проекта
-   отправляется в ветку `gh-pages`. В противном случае, в логе выполнения
-   скрипта будет указано в чем проблема.
+### Дякуємо за інтерес до нашого проекту!
+
+<div align="center">
+  <img src="https://media.giphy.com/media/gNMR6iYw4JHIdYno1E/giphy.gif" width="300"/>
+</div>
+
+
+
+
+
+
+
