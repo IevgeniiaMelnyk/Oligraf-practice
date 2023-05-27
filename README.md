@@ -2,7 +2,9 @@
 
 Відео презентація проекту [Patron-4U YouTube](https://youtu.be/Du5mKKIjR9o).
 
-## Подготовка нового проекта
+<div align="center">
+  <img src="https://media.giphy.com/media/3o7abAHdYvZdBNnGZq/giphy.gif" width="300"/>
+</div>
 
 1. Убедись что на компьютере установлена LTS-версия Node.js.
    [Скачай и установи](https://nodejs.org/en/) её если необходимо.
