@@ -65,7 +65,9 @@
 - [Ievgeniia Melnyk](https://www.linkedin.com/in/ievgeniia-melnyk)
 - [Oleksii Dembnovetskyi](https://www.linkedin.com/in/oleksii-dembnovetskyi)
 - [Rostyk Podolets](https://www.linkedin.com/in/rostyk-podolets)
-- [Diana Akhmedova](https://www.linkedin.com/in/diana-akhmedova-9a137425a/)
+- [Diana Akhmedova](https://www.linkedin.com/in/diana-akhmedova-9a137425a)
+- [Galyna Dindorogo](https://www.linkedin.com/in/galyna-dindorogo)
+- [Ivan Panin](https://www.linkedin.com/in/ivan-panin)
 
 ### Термін виконання 
 
